@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/backgroundku"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardElevation="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:padding="17dp">
+
+        <TextView
+            android:id="@+id/booking_product_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Produk"
+            android:textColor="@android:color/white"
+            android:textSize="14dp"
+            android:textAlignment="center"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/booking_product_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/booking_product_name"
+            android:text="Lokasi Produk"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="14dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:layout_marginRight="5dp"/>
+
+
+        <TextView
+            android:id="@+id/booking_product_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Harga Produk"
+            android:textColor="@android:color/white"
+            android:textSize="14dp"
+            android:gravity="center"
+            android:layout_below="@+id/booking_product_location"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

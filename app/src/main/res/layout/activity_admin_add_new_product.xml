@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundku"
+    tools:context=".AdminAddNewProductActivity">
+
+
+    <ImageView
+        android:id="@+id/select_product_image"
+        android:layout_width="350dp"
+        android:layout_height="270dp"
+        android:cropToPadding="false"
+        android:scaleType="centerInside"
+        android:src="@drawable/upload"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        />
+
+    <ScrollView
+        android:id="@+id/scroll1"
+        android:layout_below="@+id/select_product_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/add_new_product"
+        android:layout_centerHorizontal="false"
+        android:layout_centerVertical="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/product_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/select_product_image"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/input_design"
+                android:hint="Nama Produk"
+                android:scrollbars="vertical"
+                android:inputType="textMultiLine"
+                android:padding="15dp" />
+
+
+            <EditText
+                android:id="@+id/product_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/product_name"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginRight="40dp"
+                android:scrollbars="vertical"
+                android:background="@drawable/input_design"
+                android:hint="Deskripsi Produk"
+                android:inputType="textMultiLine"
+                android:padding="15dp" />
+
+            <EditText
+                android:id="@+id/product_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/product_description"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="6dp"
+                android:scrollbars="vertical"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/input_design"
+                android:hint="Harga Produk"
+                android:inputType="number"
+                android:padding="15dp" />
+
+            <EditText
+                android:id="@+id/product_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/product_price"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="6dp"
+                android:scrollbars="vertical"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/input_design"
+                android:hint="Lokasi Produk"
+                android:inputType="textMultiLine"
+                android:padding="15dp" />
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/add_new_product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/button"
+        android:drawableLeft="@drawable/ic_photo"
+        android:padding="15dp"
+        android:text="Upload Produk"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

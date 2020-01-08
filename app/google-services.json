@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "809105898678",
+    "firebase_url": "https://pemasaranperumahan-54856.firebaseio.com",
+    "project_id": "pemasaranperumahan-54856",
+    "storage_bucket": "pemasaranperumahan-54856.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:809105898678:android:4682ef18f12d347d547a17",
+        "android_client_info": {
+          "package_name": "com.teknokrat.mobile2019.if117fx15312393.pemasaranperumahan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "809105898678-4gjgro6aps9ltdfu3hg11q1l0fug2kpt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.teknokrat.mobile2019.if117fx15312393.pemasaranperumahan",
+            "certificate_hash": "f198ffe100d6fb19f022f7795217809f4f55197c"
+          }
+        },
+        {
+          "client_id": "809105898678-5s3m0o9rnonr4l6l2v4h01220de77352.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyPviwmIihYFruOi9HynW5s0yoYyfz7Kw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "809105898678-5s3m0o9rnonr4l6l2v4h01220de77352.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
